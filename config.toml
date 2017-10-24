@@ -47,7 +47,7 @@ googleAnalytics = ""
   [params.navigation]
     brand = "Permitted"
     # Optional logo as brand stored in img/
-    # logo = "logo.svg"
+    logo = "logo.svg"
     # services = "Services"
     # portfolio = "Portfolio"
     # about = "About"
@@ -75,9 +75,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Welcome To Our Studio!"
-    subtitle = "It's nice to meet you"
-    buttonText = "Tell me more"
+    title = "One form to get permitting requirements and pull building permits, nationwide."
+    subtitle = "Speed-Up Your Building Project. Automate Your Permits."
+    buttonText = "Contact Us"
 
 
   # Services section
@@ -297,24 +297,24 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "Copyright 2017 GetPermitted, Inc"
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/permittedco"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
+    # [[params.footer.social]]
+      # icon = "fa-facebook"
+      # link = "#"
 
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
+    # [[params.footer.social]]
+      # icon = "fa-linkedin"
+      # link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Privacy Policy"
-      link = "#"
+    # [[params.footer.quicklinks]]
+      # text = "Privacy Policy"
+      # link = "#"
 
-    [[params.footer.quicklinks]]
-      text = "Terms of Use"
-      link = "#"
+    # [[params.footer.quicklinks]]
+      # text = "Terms of Use"
+      # link = "#"
