@@ -82,7 +82,7 @@ googleAnalytics = ""
 
   # Services section
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     subtitle = "Lorem ipsum dolor sit amet consectetur."
 
