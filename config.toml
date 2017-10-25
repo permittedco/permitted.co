@@ -48,7 +48,7 @@ googleAnalytics = ""
     brand = "Permitted"
     # Optional logo as brand stored in img/
     logo = "logo.svg"
-    # services = "Services"
+    services = "Features"
     # portfolio = "Portfolio"
     # about = "About"
     team = "Team"
@@ -82,28 +82,28 @@ googleAnalytics = ""
 
   # Services section
   [params.services]
-    enable = false
-    title = "Services"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
+    enable = true
+    title = "Features"
+    subtitle = "A new way to pull building permits, coming soon."
 
     [[params.services.row]]
 
     [[params.services.row.list]]
-      icon = "fa-shopping-cart"
-      title = "E-Commerce"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-map-marker"
+      title = "Requirements"
+      description = "We determine what permits you need for your project, and the authorities you need to file with"
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-laptop"
-      title = "Responsive Design"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-file-text-o"
+      title = "Application Forms"
+      description = "Your one place to manage inspection schedules, permit renewals and other permit workflow."
       url = "#"
 
     [[params.services.row.list]]
-      icon = "fa-lock"
-      title = "Web"
-      description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      icon = "fa-building-o"
+      title = "Permits"
+      description = "Your one place to manage inspection schedules, permit renewals and other permit workflow."
       url = "#"
 
   # Portfolio section
@@ -164,55 +164,90 @@ googleAnalytics = ""
     # Possibility to center items
     #center = true
     title = "Our amazing team"
-    subtitle = "Lorem ipsum dolor sit amet consectetur."
-    description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+    subtitle = "We build great teams and products to solve massive problems for our customers. Get in touch if that sounds like your jam."
+    # description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "1.jpg"
-      name = "Kay Garland"
-      position = "Lead Designer"
-      reportsTo = "CTO"
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "UX for [member dashboard](#)",
-        "Maintainer for [awesome-project](#)",
-        "Open Source [community management](#)"
-      ]
+      img = "tela.jpg"
+      name = "Tela Andrews"
+      position = "CEO"
+      # reportsTo = "CEO"
+      # livesIn = "[Munich, Germany](#some-maps-url)"
+      # scope = [
+        # "UX for [member dashboard](#)",
+        # "Maintainer for [awesome-project](#)",
+        # "Open Source [community management](#)"
+      # ]
+
       # For bio markdown and even multiline strings are available.
-      bio = """Kay is an awesome Lead Designer with heaps of experience in the field of UX.
-She worked at Pied Piper for years until they went belly up."""
+      bio = """Tela founded Permitted to make building permitting easier. He brings deep experience in compliance, SaaS and marketing is combined with his background in architecture and landscape architecture."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/the_tela"],
+        # ["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/telaandrews"]
       ]
 
     [[params.team.members]]
-      img = "2.jpg"
-      name = "Larry Parker"
-      position = "Lead Marketer"
+      img = "ramin.jpg"
+      name = "Ramin Keene"
+      position = "Development"
+      bio = """Ramin loves building technology to solve large scale problems. A veteran of Stock Twits, Tune, and fomer CTO at StockX."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/rmn"],
+        # ["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/raminkeene"]
       ]
 
     [[params.team.members]]
-      img = "3.jpg"
-      name = "Diana Pertersen"
-      position = "Lead Developer"
+      img = "derric.jpg"
+      name = "Derric Wise"
+      position = "Design"
+      bio = """Derric drives branding, design and user experience. Derric has worked at Moz and Funko, and loves designing for SaaS and physical products."""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-facebook", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/derricwise"],
+        # ["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/derricwise/"]
+      ]
+
+    [[params.team.members]]
+      img = "bonnie.jpg"
+      name = "Bonnie Page"
+      position = "Operations"
+      bio = """Bonnie is passionate about operating and scaling businesses, from people to finance and legal. Bonnie brings deep experience growing compliance SaaS businesses."""
+      social = [
+        ["fa-twitter", "https://twitter.com/derricwise"],
+        # ["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/derricwise/"]
+      ]
+
+    [[params.team.members]]
+      img = "kane.jpg"
+      name = "Kane Jamison"
+      position = "Marketing"
+      bio = """Kane leads marketing efforts for Permitted. As owner of Content Harmony, a Seattle markeitng agency, Kane and his team drive marketing and traffic acquisition tactics and strategy."""
+      social = [
+        ["fa-twitter", "https://twitter.com/derricwise"],
+        # ["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/derricwise/"]
+      ]
+
+    [[params.team.members]]
+      img = "1.jpg"
+      name = "Steven Blaha"
+      position = "Data Science"
+      bio = """Steven leads our data science practice, developing metrics and insights that help our customers make sense of permitting for their projects."""
+      social = [
+        ["fa-twitter", "https://twitter.com/derricwise"],
+        # ["fa-facebook", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/derricwise/"]
       ]
 
   # Client section
     [params.clients_list]
-      enable = true
+      enable = false
       # Possibility to center items
       #center = true
       # Optional client title specifying the involvement
@@ -241,8 +276,8 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
-    buttonText = "Send message"
+    subtitle  = "Get in touch for early access and for partner opporunities"
+    buttonText = "Send"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -262,7 +297,7 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "info@permitted.co"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
