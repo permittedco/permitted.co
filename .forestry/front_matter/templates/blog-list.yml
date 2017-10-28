@@ -1,6 +1,4 @@
 ---
-pages:
-- blog.md
 hide_body: true
 fields:
 - type: text
