@@ -1,10 +1,13 @@
 +++
 author = "Dave Hepp"
-date = "2017-01-23T15:53:00+02:00"
+date = "2017-10-29T00:10:52+00:00"
 layout = "single"
-type = "single"
-title = "Why do we use it?"
+short_description = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
 slug = "first-blog-post"
+tagline = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
+title = "Why do we use it?"
+type = "single"
+
 +++
 ## Why do we use it?
 
