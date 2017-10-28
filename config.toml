@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "https://permitted-co.netlify.com/"
 languageCode = "en-us"
 title = "Permitted"
 theme = "permitted-theme"
