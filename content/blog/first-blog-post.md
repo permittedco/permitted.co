@@ -1,6 +1,10 @@
 +++
-date = "2017-10-29T00:10:52+00:00"
-title = "First blog post"
+author = "Dave Hepp"
+date = "2017-01-23T15:53:00+02:00"
+layout = "single"
+type = "single"
+title = "Why do we use it?"
+slug = "first-blog-post"
 +++
 ## Why do we use it?
 
