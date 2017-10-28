@@ -1,3 +1,5 @@
 ---
-title: Test
+title: Index page
+type: page
+
 ---
