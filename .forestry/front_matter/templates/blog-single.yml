@@ -13,3 +13,8 @@ fields:
   name: tagline
   config:
     required: true
+- type: textarea
+  name: short_description
+  label: Short description
+  config:
+    required: true
