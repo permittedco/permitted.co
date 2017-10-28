@@ -1,3 +1,5 @@
 ---
+pages:
+- blog/first-blog-post.md
 hide_body: false
 fields: []
