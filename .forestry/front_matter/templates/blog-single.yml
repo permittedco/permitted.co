@@ -2,4 +2,7 @@
 pages:
 - blog/first-blog-post.md
 hide_body: false
-fields: []
+fields:
+- type: text
+  name: title
+  label: Title
