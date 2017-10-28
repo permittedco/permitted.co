@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: #FE3467;
 }
 
 p {
@@ -35,7 +35,7 @@ a.active {
 }
 
 a {
-    color: #fed136;
+    color: #4E18A9;
 }
 
 a:hover,
@@ -69,12 +69,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #fed136;
+    border-color: #FAD277;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #FAD277;
 }
 
 .btn-primary:hover,
@@ -108,25 +108,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #FAD277;
+    background-color: #FAD277;
 }
 
 .btn-primary .badge {
-    color: #fed136;
+    color: #FAD277;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #FE3467;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #FE3467;
 }
 
 .btn-xl:hover,
@@ -134,9 +134,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
-    color: #fff;
-    background-color: #fec503;
+    border-color: #FE3467;
+    color: #FE3467;
+    background-color: rgba(254, 52, 103, 0.01);
 }
 
 .btn-xl:active,
@@ -160,23 +160,23 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #FE3467;
+    background-color: #FE3467;
 }
 
 .btn-xl .badge {
-    color: #fed136;
+    color: #FAD277;
     background-color: #fff;
 }
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #4E18A9;
 }
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #fed136;
+    color: #FAD277;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -209,12 +209,12 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-collapse {
-    border-color: rgba(255,255,255,.02);
+    border-color: rgba(78,24,169,.02);
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #fed136;
-    background-color: #fed136;
+    border-color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -223,7 +223,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #fed136;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .navbar-default .nav li a {
@@ -237,13 +237,13 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #fed136;
+    color: #FAD277;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #fed136;
+    background-color: #FAD277;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -275,7 +275,7 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink {
         padding: 10px 0;
-        background-color: #222;
+        background-color: #4E18A9;
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
@@ -287,7 +287,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: linear-gradient(135deg, rgba(87,21,174,0.8) 50%,rgba(199,2,75,0.4) 95%), url(../img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -327,18 +327,18 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 25px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 25px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-size: 50px;
         font-weight: 700;
-        line-height: 75px;
+        line-height: 60px;
     }
 }
 
@@ -350,6 +350,7 @@ section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
     font-size: 40px;
+    color: #4E18A9;
 }
 
 section h3.section-subheading {
@@ -359,11 +360,12 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
+    color: #777;
 }
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 
@@ -371,6 +373,11 @@ section h3.section-subheading {
     margin: 15px 0;
     text-transform: none;
 }
+
+.service-inverse {
+    color: #E0F2F2;
+}
+
 
 #portfolio .portfolio-item {
     right: 0;
@@ -515,7 +522,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
+    background-color: #FAD277;
 }
 
 .timeline>li .timeline-image h4 {
@@ -677,11 +684,12 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+    color: #777;
 }
 .team-member h3 {
     text-transform: none;
     font-weight: 600;
-    color: #333;
+    color: #4E18A9;
 }
 
 .team-member h4 {
@@ -743,14 +751,15 @@ aside .heading {
 }
 
 section#contact {
-    background-color: #222;
+    background-color: #fff;
     background-image: url(../img/map-image.png);
+    filter: brightness(100%);
     background-position: center;
     background-repeat: no-repeat;
 }
 
 section#contact .section-heading {
-    color: #fff;
+    color: #4E18A9;
 }
 
 section#contact .form-group {
@@ -764,14 +773,18 @@ section#contact .form-group textarea {
 
 section#contact .form-group input.form-control {
     height: auto;
+    color: #fff;
+    background-color: #030128;
 }
 
 section#contact .form-group textarea.form-control {
     height: 236px;
+    color: #fff;
+    background-color: #030128;
 }
 
 section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #FAD277;
     box-shadow: none;
 }
 
@@ -804,7 +817,7 @@ section#contact:-ms-input-placeholder {
 }
 
 section#contact .text-danger {
-    color: #e74c3c;
+    color: #FE3467;
 }
 
 section#contact .text-success {
@@ -854,7 +867,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #fed136;
+    background-color: #FAD277;
 }
 
 .btn:focus,
@@ -942,12 +955,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #fed136;
+    background: #FAD277;
 }
 
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #FAD277;
 }
 
 img::selection {
@@ -959,5 +972,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
-}-
+    webkit-tap-highlight-color: #FAD277;
+}

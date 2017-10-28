@@ -9,27 +9,15 @@ enableRobotsTXT = true
 googleAnalytics = ""
 
 [params]
-  # You can use Markdown syntax for urls [text](//url.to/source) or
-  # most longer texts.
-  #
-  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
-  # for more icons. The icons are represented by their corresponding
-  # CSS class.
-
-  # To provide some metadata for search engines feel free to add a few
-  # information about you and your website.
   name = "Permitted.co"
   description = "Automate your building permits. Fill in one easy-to-use forms, and we complete all the permit applications for you. For architects, engineers, contractors, commercial property managers"
-
   # Link custom assets relative to /static
   custom_css = []
   custom_js  = []
   favicon    = "favicon.ico"
-
   # Possibility to disable external/additional fonts
   # Exception: Fontawesome
   disableFonts = false
-
   # 404 error customization
   [params.error404]
     heading = "Page couldn't be found"
