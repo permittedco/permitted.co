@@ -8,3 +8,8 @@ fields:
   label: Title
   config:
     required: true
+- type: textarea
+  label: Tagline
+  name: tagline
+  config:
+    required: true
