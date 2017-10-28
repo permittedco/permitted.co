@@ -1,3 +1,5 @@
 ---
 hide_body: true
-fields: []
+fields:
+- type: text
+  default: Title
