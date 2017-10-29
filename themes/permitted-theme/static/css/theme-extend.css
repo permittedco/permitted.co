@@ -61,3 +61,20 @@ header.blogInner .intro-text .intro-lead-in {
 .blogList article {
   margin-bottom: 30px;
 }
+.blogInner__content p,
+.blogInner__content h1,
+.blogInner__content h2,
+.blogInner__content h3,
+.blogInner__content h4,
+.blogInner__content h5,
+.blogInner__content h6 {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin-bottom: 24px;
+}
+.blogInner__content p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.blogInner__content img {
+  max-width: 100%;
+}
