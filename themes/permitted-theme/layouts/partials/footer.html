@@ -1,5 +1,4 @@
-{{ "
-<!-- Footer section -->" | safeHTML }}
+{{ "<!-- Footer section -->" | safeHTML }}
 <footer>
   <hr>
   <div class="container">
@@ -36,7 +35,8 @@
       responseType: 'code',
       params: {
         scope: 'openid email'
-      }
+      },
+      redirect: false
     }
   });
   lock.on("authenticated", function(authResult) {
