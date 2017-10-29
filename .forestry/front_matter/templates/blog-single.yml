@@ -22,3 +22,10 @@ fields:
 - type: file
   label: Post preview image
   name: preview_image
+- type: text
+  name: date
+  label: date
+  hidden: true
+  config:
+    required: true
+  default: 2017-10-29 00:10:52 +0000
