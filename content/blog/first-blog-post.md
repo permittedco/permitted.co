@@ -1,6 +1,6 @@
 +++
 date = "2017-10-29T00:10:52Z"
-preview_image = "/uploads/2017/10/29/google_earth_banner.jpg"
+preview_image = "/uploads/2017/10/29/google_earth_banner-1.jpg"
 short_description = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
 slug = "first-blog-post"
 tagline = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
