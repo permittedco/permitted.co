@@ -27,7 +27,7 @@ fields:
   label: date
   hidden: true
   config:
-    required: true
+    required: false
   default: ''
 - type: datetime
   config:
