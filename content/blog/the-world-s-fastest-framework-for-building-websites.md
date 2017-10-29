@@ -1,6 +1,5 @@
 +++
 date = "2017-10-28T14:08:50+03:00"
-draft = true
 preview_image = "/uploads/2017/10/29/Screen Shot 2017-10-29 at 12.09.12 PM.png"
 publication_date = "2017-10-29T03:10:52+03:00"
 short_description = "Hugo is one of the most popular open-source static site generators. With its amazing speed and flexibility, Hugo makes building websites fun again."
