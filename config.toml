@@ -5,11 +5,11 @@ languageCode = "en-us"
 theme = "permitted-theme"
 title = "Permitted"
 [[menu.postpend]]
+identifier = "blog"
 name = "BLOG"
 pre = ""
-weight = 1
-identifier = "blog"
 url = "/blog/"
+weight = 1
 [params]
 custom_css = []
 custom_js = []
@@ -146,12 +146,6 @@ bio = "Kane leads marketing efforts for Permitted. As owner of Content Harmony, 
 img = "kane.jpg"
 name = "Kane Jamison"
 position = "Marketing"
-social = [["fa-twitter", "https://twitter.com/derricwise"], ["fa-linkedin", "https://www.linkedin.com/in/derricwise/"]]
-[[params.team.members]]
-bio = "Steven leads our data science practice, developing metrics and insights that help our customers make sense of permitting for their projects."
-img = "1.jpg"
-name = "Steven Blaha"
-position = "Data Science"
 social = [["fa-twitter", "https://twitter.com/derricwise"], ["fa-linkedin", "https://www.linkedin.com/in/derricwise/"]]
 [[params.clients]]
 link = "#"
