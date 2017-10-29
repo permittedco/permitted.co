@@ -1,5 +1,6 @@
 ---
 pages:
+- blog/where-does-it-come-from.md
 - blog/first-blog-post.md
 hide_body: false
 fields:
