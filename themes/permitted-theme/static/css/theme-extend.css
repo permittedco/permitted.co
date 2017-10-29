@@ -78,3 +78,19 @@ header.blogInner .intro-text .intro-lead-in {
 .blogInner__content img {
   max-width: 100%;
 }
+.loginAuth {
+  border: 2px solid #FFF;
+  margin-top: 7px;
+  transition: all 200ms linear;
+}
+.loginAuth:hover {
+  border: 2px solid #FE3467;
+  background: #FE3467;
+}
+.navbar-default .nav li.loginAuth a {
+  font-size: 14px;
+  padding: 5px 15px;
+}
+.navbar-default .nav li.loginAuth a:hover {
+  color: #FFF;
+}
