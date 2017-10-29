@@ -39,7 +39,7 @@ function readCookie(name) {
 }
 
 function Authentificate() {
-  var lock = new Auth0Lock('M9BCvF0zmC1cThL4JBygsD78hJWUVHej', 'gutorov.auth0.com', {
+  var lock = new Auth0Lock('yYjC5UMqqXHVmks46NQd4OEn1I0fJYet', 'permitted.auth0.com', {
     auth: {
       redirectUrl: 'https://permitted-co.netlify.com/',
       responseType: 'code',
