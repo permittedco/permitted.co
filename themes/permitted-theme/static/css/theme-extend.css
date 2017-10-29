@@ -1,47 +1,57 @@
 .team-member img {
   max-width: 225px;
 }
+
 .siteOwnLogo {
   height: 45px;
   position: relative;
   top: -15px;
   fill: #FFF;
 }
-.navbar-default .nav li a,
-.siteOwnLogo {
+
+.navbar-default .nav li a, .siteOwnLogo {
   transition: all 200ms linear;
 }
-.siteOwnLogo:hover,
-.navbar-default .nav li a:hover {
+
+.siteOwnLogo:hover, .navbar-default .nav li a:hover {
   fill: #FE3467;
   color: #FE3467;
 }
+
 .blogList {
   padding-top: 80px;
 }
+
 .blogList .card {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 .blogList .card img {
   max-width: 100%;
 }
+
 .blogList .card-title:hover {
   text-decoration: none !important;
   color: #FE3467;
 }
+
 .btn--readMore {
   color: #FE3467;
 }
+
 .btn--readMore:hover {
   color: #000;
 }
+
 .blogInner {
-  background: rgba(0,0,0, .8);
+  background: rgba(0, 0, 0, .8);
 }
+
 header.blogInner .intro-text {
   padding-top: 200px;
   padding-bottom: 130px;
 }
+
 header.blogInner .intro-text .intro-lead-in {
   line-height: 32px;
   font-size: 20px;
@@ -50,47 +60,60 @@ header.blogInner .intro-text .intro-lead-in {
   width: 100%;
   margin: 0px auto 50px;
 }
+
 .blogInner .btn-xl {
   padding: 10px 20px;
   font-size: 16px;
 }
+
 .blogInner__content {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 .blogList article {
   margin-bottom: 30px;
 }
-.blogInner__content p,
-.blogInner__content h1,
-.blogInner__content h2,
-.blogInner__content h3,
-.blogInner__content h4,
-.blogInner__content h5,
-.blogInner__content h6 {
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+.blogInner__content p, .blogInner__content h1, .blogInner__content h2, .blogInner__content h3, .blogInner__content h4, .blogInner__content h5, .blogInner__content h6 {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 24px;
 }
+
 .blogInner__content p {
   font-size: 16px;
   line-height: 24px;
 }
+
 .blogInner__content img {
   max-width: 100%;
 }
+
 .loginAuth {
   border: 2px solid #FFF;
   margin-top: 7px;
   transition: all 200ms linear;
 }
+
 .loginAuth:hover {
   border: 2px solid #FE3467;
   background: #FE3467;
 }
+
 .navbar-default .nav li.loginAuth a {
   font-size: 14px;
   padding: 5px 15px;
 }
+
 .navbar-default .nav li.loginAuth a:hover {
   color: #FFF;
+}
+
+.features__icon.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  vertical-align: middle;
 }

@@ -11,7 +11,7 @@
       <div class="row text-center">
         {{ range .list }}
           <div class="col-md-4">
-            <span class="fa-stack fa-4x">
+            <span class="fa-stack fa-4x features__icon">
               <img src="{{ .icon }}" alt="{{ .title }}">
             </span>
             <h4 class="service-heading">{{ if .url }}{{ .title | markdownify }}{{ else }}{{ .title | markdownify }}{{ end }}</h4>
