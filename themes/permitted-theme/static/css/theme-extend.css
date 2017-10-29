@@ -22,6 +22,9 @@
 .blogList .card {
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+.blogList .card img {
+  max-width: 100%;
+}
 .blogList .card-title:hover {
   text-decoration: none !important;
   color: #FE3467;
@@ -54,4 +57,7 @@ header.blogInner .intro-text .intro-lead-in {
 .blogInner__content {
   padding-top: 100px;
   padding-bottom: 50px;
+}
+.blogList article {
+  margin-bottom: 30px;
 }

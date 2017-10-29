@@ -16,8 +16,8 @@
   <div class="container blogList">
     {{ range .Data.Pages }}
     <article class="card col-lg-4 col-md-4 col-sm-6">
-        {{with .Params.preview_image }}
-          <img class="card-img-top" src="{{.}}" alt="{{.Title}}">
+        {{if .Params.preview_image }}
+          <img src="{{.Params.preview_image}}" alt="">
         {{end}}
         <div class="card-body">
           <a href="{{.Permalink}}" class="card-title">

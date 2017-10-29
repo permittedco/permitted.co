@@ -2,7 +2,7 @@
 author = "Dave Hepp"
 date = "2017-10-29T00:10:52+00:00"
 layout = "single"
-preview_image = "/uploads/2017/10/29/Screen Shot 2017-10-29 at 10.27.52 AM.png"
+preview_image = "/uploads/2017/10/29/post1.png"
 short_description = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
 slug = "first-blog-post"
 tagline = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. "
