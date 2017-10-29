@@ -1,4 +1,5 @@
-{{ "<!-- Footer section -->" | safeHTML }}
+{{ "
+<!-- Footer section -->" | safeHTML }}
 <footer>
   <hr>
   <div class="container">
@@ -7,7 +8,7 @@
         <ul class="list-inline social-buttons">
 
           {{ range .Site.Params.footer.social }}
-            <li><a href="{{ .link }}"><i class="fa {{ .icon }}"></i></a></li>
+          <li><a href="{{ .link }}"><i class="fa {{ .icon }}"></i></a></li>
           {{ end }}
 
         </ul>
@@ -16,7 +17,7 @@
         <ul class="list-inline quicklinks">
 
           {{ range .Site.Params.footer.quicklinks }}
-            <li><a href="{{ .link }}">{{ .text  | markdownify }}</a></li>
+          <li><a href="{{ .link }}">{{ .text  | markdownify }}</a></li>
           {{ end }}
 
         </ul>
@@ -34,8 +35,21 @@
       redirectUrl: 'https://permitted-co.netlify.com/',
       responseType: 'code',
       params: {
-        scope: 'openid email' // Learn about scopes: https://auth0.com/docs/scopes
+        scope: 'openid email'
       }
     }
   });
+  lock.on("authenticated", function(authResult) {
+    lock.getUserInfo(authResult.accessToken, function(error, profile) {
+      if (error) {
+        return;
+      }
+
+      document.getElementById('nick').textContent = profile.nickname;
+
+      localStorage.setItem('accessToken', authResult.accessToken);
+      localStorage.setItem('profile', JSON.stringify(profile));
+    });
+  });
 </script>
+ <h2>Welcome <span id="nick" class="nickname"></span></h2>
