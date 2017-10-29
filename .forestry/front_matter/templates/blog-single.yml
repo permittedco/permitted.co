@@ -33,5 +33,7 @@ fields:
 - type: datetime
   config:
     required: true
-  label: date
+  label: Future publication date
   name: date
+  description: Save your post for future publication. (If you want do publication
+    now please select previous day)
