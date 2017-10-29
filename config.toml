@@ -104,7 +104,7 @@ title = "Application Forms"
 url = "#"
 [[params.services.row.list]]
 description = "Your one place to manage inspection schedules, permit renewals and other permit workflow."
-icon = "fa-building-o"
+icon = "/uploads/2017/10/29/permits.svg"
 title = "Permits"
 url = "#"
 [params.team]
