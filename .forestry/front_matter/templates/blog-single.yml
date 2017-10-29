@@ -18,3 +18,6 @@ fields:
   label: Short description
   config:
     required: true
+- type: file
+  label: Post preview image
+  name: preview_image
