@@ -12,9 +12,9 @@
         {{ range .list }}
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
-              {{ .icon }}
+              <img src="{{ .icon }}" alt="{{ .title }}">
             </span>
-            <h4 class="service-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            <h4 class="service-heading">{{ if .url }}{{ .title | markdownify }}{{ else }}{{ .title | markdownify }}{{ end }}</h4>
             <p class="text-muted">{{ .description | markdownify }}</p>
           </div>
         {{ end }}
