@@ -16,3 +16,19 @@
   fill: #FE3467;
   color: #FE3467;
 }
+.blogList {
+  padding-top: 80px;
+}
+.blogList .card {
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.blogList .card-title:hover {
+  text-decoration: none !important;
+  color: #FE3467;
+}
+.btn--readMore {
+  color: #FE3467;
+}
+.btn--readMore:hover {
+  color: #000;
+}

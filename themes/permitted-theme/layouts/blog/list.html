@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+
+{{ partial "head.html" . }}
+
+<body id="page-top" class="index">
+  {{ partial "nav.html" . }}
+  <header>
+    <div class="container">
+      <div class="intro-text">
+        <div class="intro-lead-in">{{ with .Params.tagline }}{{ . | markdownify }}{{ end }}</div>
+        <div class="intro-heading">{{ with .Params.title }}{{ . | markdownify }}{{ end }}</div>
+      </div>
+    </div>
+  </header>
+  <div class="container blogList">
+    {{ range .Data.Pages }}
+    <article class="card col-lg-4 col-md-4 col-sm-6">
+        {{with .Params.preview_image }}
+          <img class="card-img-top" src="{{.}}" alt="{{.Title}}">
+        {{end}}
+        <div class="card-body">
+          <a href="{{.Permalink}}" class="card-title">
+            <h4>{{.Title}}</h4>
+          </a>
+          <p><sm><i class="fa fa-calendar-o" aria-hidden="true"></i> <em>{{ .Date.Format "2006-01-02"}}</em></sm></p>
+          <p class="card-text">
+            {{with .Params.short_description }}{{.}}{{end}}
+          </p>
+          <a href="{{.Permalink}}" class="btn--readMore">Read more</a>
+        </div>
+    </article>
+    {{ end }}
+  </div>
+
+
+
+  {{ if .Site.Params.footer.enable }} {{ partial "footer.html" . }} {{ end }} {{ partial "js.html" . }}
+</body>
+
+</html>
