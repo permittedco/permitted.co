@@ -29,3 +29,9 @@ fields:
   config:
     required: true
   default: 2017-10-29 00:10:52 +0000
+- type: datetime
+  config:
+    required: true
+    time_format: 2017-10-29 00:10:52 +0000
+  label: Publication date
+  name: publication_date
