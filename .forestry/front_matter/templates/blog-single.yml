@@ -1,5 +1,6 @@
 ---
 pages:
+- blog/the-world-s-fastest-framework-for-building-websites.md
 - blog/where-does-it-come-from.md
 - blog/first-blog-post.md
 hide_body: false
@@ -35,7 +36,7 @@ fields:
     time_format: 2017-10-29 00:10:52 +0000
   label: Publication date
   name: publication_date
-  default: 2017-10-29 03:10:52 +0300
+  default: 2017-10-29 00:10:52 +0000
 - type: datetime
   config:
     required: true
