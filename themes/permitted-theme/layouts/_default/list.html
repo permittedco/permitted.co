@@ -23,7 +23,7 @@
           <a href="{{.Permalink}}" class="card-title">
             <h4>{{.Title}}</h4>
           </a>
-          <p><sm><i class="fa fa-calendar-o" aria-hidden="true"></i> <em>{{ .Date.Format "2006-01-02"}}</em></sm></p>
+          <p><sm><i class="fa fa-calendar-o" aria-hidden="true"></i> <em>{{dateFormat "Monday, Jan 2, 2006" .Params.publication_date}}</em></sm></p>
           <p class="card-text">
             {{with .Params.short_description }}{{.}}{{end}}
           </p>
