@@ -31,25 +31,16 @@
 <script>
   var lock = new Auth0Lock('M9BCvF0zmC1cThL4JBygsD78hJWUVHej', 'gutorov.auth0.com', {
     auth: {
-      redirect: false,
+      redirectUrl: 'https://permitted-co.netlify.com/',
       responseType: 'code',
       params: {
         scope: 'openid email'
       },
-
     }
   });
+  console.log(lock);
   lock.on("authenticated", function(authResult) {
-    lock.getUserInfo(authResult.accessToken, function(error, profile) {
-      if (error) {
-        return;
-      }
-
-      document.getElementById('nick').textContent = profile.nickname;
-
-      localStorage.setItem('accessToken', authResult.accessToken);
-      localStorage.setItem('profile', JSON.stringify(profile));
-    });
+    console.log(authResult);
+    alert(Authentificated)
   });
 </script>
- <h2>Welcome <span id="nick" class="nickname"></span></h2>
