@@ -25,9 +25,9 @@ fields:
 - type: text
   name: date
   label: date
-  hidden: true
+  hidden: false
   config:
-    required: false
+    required: true
   default: ''
 - type: datetime
   config:
@@ -36,3 +36,8 @@ fields:
   label: Publication date
   name: publication_date
   default: Invalid date
+- type: datetime
+  config:
+    required: true
+  label: date
+  name: date
