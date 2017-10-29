@@ -16,6 +16,7 @@ function checkLoad() {
       var now = new Date();
       now.setTime(now.getTime() + 24 * 3600 * 1000);
       document.cookie = "_authentification=" + getPostParams('code') + "; expires=" + now.toUTCString() + "; path=/";
+      window.location = window.location.pathname;
     } else {
       $('.loginAuth a').text('LOGIN');
       $('.loginAuth').click(function() {
