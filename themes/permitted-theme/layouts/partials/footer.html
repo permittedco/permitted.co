@@ -31,12 +31,12 @@
 <script>
   var lock = new Auth0Lock('M9BCvF0zmC1cThL4JBygsD78hJWUVHej', 'gutorov.auth0.com', {
     auth: {
-      redirectUrl: 'https://permitted-co.netlify.com/',
+      redirect: false,
       responseType: 'code',
       params: {
         scope: 'openid email'
       },
-      redirect: false
+
     }
   });
   lock.on("authenticated", function(authResult) {
