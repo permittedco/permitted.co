@@ -5,9 +5,18 @@
 
   <body id="page-top" class="index">
     {{ partial "nav.html" . }}
-    {{ partial "hero.html" . }}
-
-    {{ .Page.Content }}
+    <header class="blogInner">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading">{{ with .Params.Title }}{{ . | markdownify }}{{ end }}</div>
+          <div class="intro-lead-in">{{ with .Params.tagline }}{{ . | markdownify }}{{ end }}</div>
+          <a href="{{ .Site.BaseURL }}blog" class="page-scroll btn btn-xl">RETURN TO BLOG</a>
+        </div>
+      </div>
+    </header>
+    <div class="container blogInner__content">
+      {{ with .Page.Content }}{{ . | markdownify }}{{end}}
+    </div>
 
     {{ if .Site.Params.footer.enable }}
       {{ partial "footer.html" . }}

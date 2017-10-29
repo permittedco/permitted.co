@@ -32,3 +32,26 @@
 .btn--readMore:hover {
   color: #000;
 }
+.blogInner {
+  background: rgba(0,0,0, .8);
+}
+header.blogInner .intro-text {
+  padding-top: 200px;
+  padding-bottom: 130px;
+}
+header.blogInner .intro-text .intro-lead-in {
+  line-height: 32px;
+  font-size: 20px;
+  font-weight: 500;
+  max-width: 600px;
+  width: 100%;
+  margin: 0px auto 50px;
+}
+.blogInner .btn-xl {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.blogInner__content {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
