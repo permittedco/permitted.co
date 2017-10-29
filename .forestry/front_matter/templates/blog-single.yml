@@ -35,7 +35,7 @@ fields:
     time_format: 2017-10-29 00:10:52 +0000
   label: Publication date
   name: publication_date
-  default: Invalid date
+  default: 2017-10-29 03:10:52 +0300
 - type: datetime
   config:
     required: true
