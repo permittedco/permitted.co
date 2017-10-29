@@ -1,3 +1,18 @@
 .team-member img {
   max-width: 225px;
 }
+.siteOwnLogo {
+  height: 45px;
+  position: relative;
+  top: -15px;
+  fill: #FFF;
+}
+.navbar-default .nav li a,
+.siteOwnLogo {
+  transition: all 200ms linear;
+}
+.siteOwnLogo:hover,
+.navbar-default .nav li a:hover {
+  fill: #FE3467;
+  color: #FE3467;
+}
