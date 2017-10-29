@@ -14,7 +14,7 @@
     </div>
   </header>
   <div class="container blogList">
-    {{ range .Data.Pages }}
+    {{ range sort .Data.Pages "Params.publication_date" "desc" }}
     <article class="card col-lg-4 col-md-4 col-sm-6">
         {{if .Params.preview_image }}
           <img src="{{.Params.preview_image}}" alt="">
