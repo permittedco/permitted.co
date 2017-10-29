@@ -1,8 +1,8 @@
 ---
 pages:
-- blog/the-world-s-fastest-framework-for-building-websites.md
-- blog/where-does-it-come-from.md
 - blog/first-blog-post.md
+- blog/where-does-it-come-from.md
+- blog/the-world-s-fastest-framework-for-building-websites.md
 hide_body: false
 fields:
 - type: text
