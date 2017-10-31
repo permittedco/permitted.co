@@ -25,9 +25,6 @@ fields:
       label: position
     - type: field_group_list
       fields:
-      - type: field_group
-        label: Social
-        name: social
       - type: text
         label: link
         name: link
