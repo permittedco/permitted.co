@@ -1,3 +1,14 @@
 ---
 hide_body: false
-fields: []
+fields:
+- type: field_group_list
+  label: Team
+  name: team
+  fields:
+  - type: field_group
+    label: member
+    name: member
+    fields:
+    - type: text
+      name: bio
+      label: bio
