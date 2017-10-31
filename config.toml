@@ -99,7 +99,7 @@ icon = "/uploads/2017/10/29/requirements.svg"
 title = "Requirements"
 url = "#"
 [[params.services.row.list]]
-description = "Your one place to manage inspection schedules, permit renewals and other permit workflow."
+description = "You fill our single easy form, and we'll complete all the permit applications for you."
 icon = "/uploads/2017/10/29/applications.svg"
 title = "Application Forms"
 url = "#"
