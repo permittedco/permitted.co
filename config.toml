@@ -5,11 +5,11 @@ languageCode = "en-us"
 theme = "permitted-theme"
 title = "Permitted"
 [[menu.postpend]]
-identifier = "blog"
-name = "BLOG"
-pre = ""
-url = "/blog/"
-weight = 1
+# identifier = "blog"
+# name = "BLOG"
+# pre = ""
+# url = "/blog/"
+# weight = 1
 [params]
 custom_css = []
 custom_js = []
