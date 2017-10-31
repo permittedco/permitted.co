@@ -34,6 +34,8 @@ fields:
       - type: text
         name: fa_icon
         label: fa icon
+      label: Social
+      name: social
 - type: text
   name: title
   label: title
