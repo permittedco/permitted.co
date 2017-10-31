@@ -12,3 +12,23 @@ fields:
     - type: text
       name: bio
       label: bio
+    - type: file
+      name: img
+      label: img
+    - type: text
+      name: name
+      label: name
+    - type: text
+      name: position
+      label: position
+    - type: field_group_list
+      fields:
+      - type: field_group
+        label: Social
+        name: social
+      - type: text
+        label: link
+        name: link
+      - type: text
+        name: fa_icon
+        label: fa icon
