@@ -4,6 +4,17 @@ type: page
 date: 2017-10-29 00:10:52 +0000
 team:
 - member:
+    bio: Ramin loves building technology to solve large scale problems. A veteran
+      of Stock Twits, Tune, and fomer CTO at StockX.
+    img: "/img/team/ramin.jpg"
+    name: Ramin Keene
+    position: Development
+    undefined:
+    - link: https://www.linkedin.com/in/raminkeene
+      fa_icon: a-linkedin
+    - link: https://twitter.com/rmn
+      fa_icon: fa-twitter
+- member:
     bio: Tela founded Permitted to make building permitting easier. He brings deep
       experience in compliance, SaaS and marketing is combined with his background
       in architecture and landscape architecture.
