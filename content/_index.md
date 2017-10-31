@@ -4,6 +4,23 @@ type: page
 date: 2017-10-29 00:10:52 +0000
 team:
 - member:
+    bio: Tela founded Permitted to make building permitting easier. He brings deep
+      experience in compliance, SaaS and marketing is combined with his background
+      in architecture and landscape architecture.
+    img: "/img/team/tela.jpg"
+    name: Tela Andrews
+    position: CEO
+    undefined:
+    - link: https://www.linkedin.com/in/telaandrews
+      fa_icon: fa-linkedin
+    - link: https://twitter.com/the_tela
+      fa_icon: fa-twitter
+    social:
+    - link: https://twitter.com/rmn
+      fa_icon: fa-twitter
+    - link: https://www.linkedin.com/in/raminkeene
+      fa_icon: fa-linkedin
+- member:
     bio: Derric drives branding, design and user experience. Derric has worked at
       Moz and Funko, and loves designing for SaaS and physical products.
     name: Derric Wise
@@ -29,23 +46,6 @@ team:
     - link: https://twitter.com/the_tela
       fa_icon: fa-twitter
     - link: https://www.linkedin.com/in/telaandrews
-      fa_icon: fa-linkedin
-- member:
-    bio: Tela founded Permitted to make building permitting easier. He brings deep
-      experience in compliance, SaaS and marketing is combined with his background
-      in architecture and landscape architecture.
-    img: "/img/team/tela.jpg"
-    name: Tela Andrews
-    position: CEO
-    undefined:
-    - link: https://www.linkedin.com/in/telaandrews
-      fa_icon: fa-linkedin
-    - link: https://twitter.com/the_tela
-      fa_icon: fa-twitter
-    social:
-    - link: https://twitter.com/rmn
-      fa_icon: fa-twitter
-    - link: https://www.linkedin.com/in/raminkeene
       fa_icon: fa-linkedin
 
 ---
