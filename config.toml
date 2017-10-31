@@ -4,7 +4,6 @@ googleAnalytics = ""
 languageCode = "en-us"
 theme = "permitted-theme"
 title = "Permitted"
-[[menu.postpend]]
 [params]
 custom_css = []
 custom_js = []
