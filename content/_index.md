@@ -14,6 +14,11 @@ team:
       fa_icon: a-linkedin
     - link: https://twitter.com/rmn
       fa_icon: fa-twitter
+    social:
+    - link: https://twitter.com/the_tela
+      fa_icon: fa-twitter
+    - link: https://www.linkedin.com/in/telaandrews
+      fa_icon: fa-linkedin
 - member:
     bio: Tela founded Permitted to make building permitting easier. He brings deep
       experience in compliance, SaaS and marketing is combined with his background
@@ -26,5 +31,10 @@ team:
       fa_icon: fa-linkedin
     - link: https://twitter.com/the_tela
       fa_icon: fa-twitter
+    social:
+    - link: https://twitter.com/rmn
+      fa_icon: fa-twitter
+    - link: https://www.linkedin.com/in/raminkeene
+      fa_icon: fa-linkedin
 
 ---
