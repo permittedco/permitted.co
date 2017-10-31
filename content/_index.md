@@ -4,11 +4,12 @@ type: page
 date: 2017-10-29 00:10:52 +0000
 team:
 - member:
-    bio: Derric drives branding, design and user experience. Derric has worked at
-      Moz and Funko, and loves designing for SaaS and physical products.
-    name: Derric Wise
-    position: Design
-    img: "/img/team/derric.jpg"
+    name: Kane Jamison
+    position: Marketing
+    bio: Kane leads marketing efforts for Permitted. As owner of Content Harmony,
+      a Seattle markeitng agency, Kane and his team drive marketing and traffic acquisition
+      tactics and strategy.
+    img: "/img/team/kane.jpg"
     social:
     - link: https://www.linkedin.com/in/derricwise/
       fa_icon: fa-linkedin
@@ -31,6 +32,17 @@ team:
       fa_icon: fa-twitter
     - link: https://www.linkedin.com/in/raminkeene
       fa_icon: fa-linkedin
+- member:
+    bio: Derric drives branding, design and user experience. Derric has worked at
+      Moz and Funko, and loves designing for SaaS and physical products.
+    name: Derric Wise
+    position: Design
+    img: "/img/team/derric.jpg"
+    social:
+    - link: https://www.linkedin.com/in/derricwise/
+      fa_icon: fa-linkedin
+    - link: https://twitter.com/derricwise
+      fa_icon: fa-twitter
 - member:
     bio: Ramin loves building technology to solve large scale problems. A veteran
       of Stock Twits, Tune, and fomer CTO at StockX.
