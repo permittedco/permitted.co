@@ -4,18 +4,6 @@ type: page
 date: 2017-10-29 00:10:52 +0000
 team:
 - member:
-    name: Kane Jamison
-    position: Marketing
-    bio: Kane leads marketing efforts for Permitted. As owner of Content Harmony,
-      a Seattle markeitng agency, Kane and his team drive marketing and traffic acquisition
-      tactics and strategy.
-    img: "/img/team/kane.jpg"
-    social:
-    - link: https://www.linkedin.com/in/derricwise/
-      fa_icon: fa-linkedin
-    - link: https://twitter.com/derricwise
-      fa_icon: fa-twitter
-- member:
     bio: Tela founded Permitted to make building permitting easier. He brings deep
       experience in compliance, SaaS and marketing is combined with his background
       in architecture and landscape architecture.
@@ -32,6 +20,18 @@ team:
       fa_icon: fa-twitter
     - link: https://www.linkedin.com/in/raminkeene
       fa_icon: fa-linkedin
+- member:
+    name: Kane Jamison
+    position: Marketing
+    bio: Kane leads marketing efforts for Permitted. As owner of Content Harmony,
+      a Seattle markeitng agency, Kane and his team drive marketing and traffic acquisition
+      tactics and strategy.
+    img: "/img/team/kane.jpg"
+    social:
+    - link: https://www.linkedin.com/in/derricwise/
+      fa_icon: fa-linkedin
+    - link: https://twitter.com/derricwise
+      fa_icon: fa-twitter
 - member:
     bio: Derric drives branding, design and user experience. Derric has worked at
       Moz and Funko, and loves designing for SaaS and physical products.
