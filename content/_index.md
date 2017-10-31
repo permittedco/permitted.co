@@ -11,6 +11,8 @@ team:
     name: Tela Andrews
     position: CEO
     undefined:
+    - link: https://www.linkedin.com/in/telaandrews
+      fa_icon: fa-linkedin
     - link: https://twitter.com/the_tela
       fa_icon: fa-twitter
 
