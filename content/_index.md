@@ -28,9 +28,9 @@ team:
       tactics and strategy.
     img: "/img/team/kane.jpg"
     social:
-    - link: https://www.linkedin.com/in/derricwise/
+    - link: https://www.linkedin.com/in/kanejamison/
       fa_icon: fa-linkedin
-    - link: https://twitter.com/derricwise
+    - link: https://twitter.com/KaneJamison
       fa_icon: fa-twitter
 - member:
     bio: Derric drives branding, design and user experience. Derric has worked at
@@ -67,9 +67,7 @@ team:
       businesses.
     position: Operations
     social:
-    - link: https://twitter.com/derricwise
-      fa_icon: fa-twitter
-    - link: https://www.linkedin.com/in/derricwise/
+    - link: https://www.linkedin.com/in/bonnie-page-b657b019
       fa_icon: fa-linkedin
 
 ---
