@@ -16,9 +16,9 @@ team:
     - link: https://twitter.com/the_tela
       fa_icon: fa-twitter
     social:
-    - link: https://twitter.com/rmn
+    - link: https://twitter.com/the_tela
       fa_icon: fa-twitter
-    - link: https://www.linkedin.com/in/raminkeene
+    - link: https://www.linkedin.com/in/telaandrews/
       fa_icon: fa-linkedin
 - member:
     name: Kane Jamison
@@ -55,9 +55,9 @@ team:
     - link: https://twitter.com/rmn
       fa_icon: fa-twitter
     social:
-    - link: https://twitter.com/the_tela
+    - link: https://twitter.com/rmn
       fa_icon: fa-twitter
-    - link: https://www.linkedin.com/in/telaandrews
+    - link: https://www.linkedin.com/in/raminkeene/
       fa_icon: fa-linkedin
 - member:
     name: Bonnie Page
