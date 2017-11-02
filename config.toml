@@ -5,16 +5,16 @@ languageCode = "en-us"
 theme = "permitted-theme"
 title = "Permitted"
 [[menu.postpend]]
-name = "ContactUs"
+name = "Contact Us"
 url = "/#contact"
+weight = 3
+[[menu.postpend]]
+name = "Team"
+url = "/#team"
 weight = 2
 [[menu.postpend]]
-name = "team"
-url = "/#team"
-weight = 1
-[[menu.postpend]]
 identifier = "blog"
-name = "FEATURES"
+name = "Features"
 pre = ""
 url = "/#services"
 weight = 1
