@@ -21,6 +21,22 @@ team:
     - link: https://www.linkedin.com/in/telaandrews/
       fa_icon: fa-linkedin
 - member:
+    bio: Ramin loves building technology to solve large scale problems. A veteran
+      of Stock Twits, Tune, and fomer CTO at StockX.
+    img: "/img/team/ramin.jpg"
+    name: Ramin Keene
+    position: Development
+    undefined:
+    - link: https://www.linkedin.com/in/raminkeene
+      fa_icon: a-linkedin
+    - link: https://twitter.com/rmn
+      fa_icon: fa-twitter
+    social:
+    - link: https://twitter.com/rmn
+      fa_icon: fa-twitter
+    - link: https://www.linkedin.com/in/raminkeene/
+      fa_icon: fa-linkedin
+- member:
     name: Kane Jamison
     position: Marketing
     bio: Kane leads marketing efforts for Permitted. As owner of Content Harmony,
@@ -43,22 +59,6 @@ team:
       fa_icon: fa-linkedin
     - link: https://twitter.com/derricwise
       fa_icon: fa-twitter
-- member:
-    bio: Ramin loves building technology to solve large scale problems. A veteran
-      of Stock Twits, Tune, and fomer CTO at StockX.
-    img: "/img/team/ramin.jpg"
-    name: Ramin Keene
-    position: Development
-    undefined:
-    - link: https://www.linkedin.com/in/raminkeene
-      fa_icon: a-linkedin
-    - link: https://twitter.com/rmn
-      fa_icon: fa-twitter
-    social:
-    - link: https://twitter.com/rmn
-      fa_icon: fa-twitter
-    - link: https://www.linkedin.com/in/raminkeene/
-      fa_icon: fa-linkedin
 - member:
     name: Bonnie Page
     img: "/img/team/bonnie.jpg"
