@@ -17,7 +17,7 @@
     <div class="row">
       <div class="col-lg-12">
         {{ if not .Site.Params.contact.postURL }}
-        <form  action="//formspree.io/{{ with (or .Site.Params.contact.email .Site.Params.email)}}{{.}}{{ end }}" method="POST" name="sentMessage" id="contactForm">
+        <form  action="//formspree.io/{{ with (or .Site.Params.contact.email .Site.Params.email)}}{{.}}{{ end }}" target="_blank" method="POST" name="sentMessage" id="contactForm">
         {{ else }}
         <form  action="{{ .Site.Params.contact.postURL }}" method="POST" name="sentMessage" id="contactForm">
         {{ end }}
@@ -42,7 +42,7 @@
 
                 {{ with .Site.Params.contact.form.phone }}
                 <div class="form-group">
-                  <input class="form-control" id="phone" required="required" type="number" name="phone" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
+                  <input class="form-control" id="phone" type="number" name="phone" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
