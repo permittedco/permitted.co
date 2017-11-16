@@ -56,7 +56,7 @@ enable = false
 buttontext = "Send"
 email = "info@permitted.co"
 enable = true
-subtitle = "Get in touch for early access and for partner opporunities"
+subtitle = "Get in touch for early access and for partner opportunities"
 title = "Contact us"
 [params.contact.form.email]
 text = "Your Email *"
